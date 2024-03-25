@@ -208,5 +208,30 @@ footer a {
   section {
     width: 50%;
     display: inline-block;
+    border-radius: 20px;
+  }
+
+  aside div {
+    width: 33%;
+    display: inline-block;
+  }
+
+  table {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  header {
+    text-align: left;
+  }
+
+  header div {
+    display: block;
+  }
+
+  header nav li {
+    float: right;
+    display: inline-block;
   }
 }
