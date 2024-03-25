@@ -235,3 +235,30 @@ footer a {
     display: inline-block;
   }
 }
+
+@media screen and (max-width: 400px) {
+  header nav li {
+    display: inline-block;
+  }
+
+  article h1 {
+    width: 80%;
+  }
+
+  *,
+  footer {
+    font-size: 0.7em;
+  }
+
+  table {
+    margin: 0 auto;
+  }
+
+  iframe {
+    height: 100px;
+  }
+
+  aside div {
+    height: 80px;
+  }
+}
