@@ -224,15 +224,20 @@ footer a {
 
   header {
     text-align: left;
+    height: 100px;
+  }
+
+  header p {
+    float: right;
   }
 
   header div {
-    display: block;
+    float: left;
+    vertical-align: middle;
   }
 
   header nav li {
     float: right;
-    display: inline-block;
   }
 }
 
